@@ -1,0 +1,152 @@
+body {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+header {
+    display: flex;
+    font-family: 'Lean';
+    font-size: 1.3em;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+}
+
+.menu {
+    float: right;
+    padding-right: 25px;
+    display: flex;
+    margin: 15px;
+    padding: 0;
+
+}
+
+nav>ul>li {
+    list-style: none;
+    font: normal 18px arial;
+    width: 100px;
+}
+
+nav>ul>li>ul {
+    list-style: none;
+    padding-left: 14px;
+    width: 81px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    padding-left: 11px;
+    display: none;
+    
+}
+
+nav>ul>li>ul>li {
+    width: 75px;
+    padding: 5px 1px 5px 1px;
+    margin: 0;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #fff;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+nav>ul>li>ul>li:first-child {
+    margin-top: 3px;
+   
+}
+
+ul li a {
+    border: 1px solid black;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+    padding: 8px;
+    background-color: #fefefe;
+}
+
+ul li a:hover {
+    background-color: #982020;
+}
+
+
+ul>li:hover>ul {
+    display: block;
+}
+
+.logo {
+    width: 200px;
+    height: 90px;
+}
+
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.main {
+    background-color: #591313;
+    text-align: center;
+    width: 500px;
+    height: 65vh;
+    margin: auto;
+    padding: 5px;
+}
+
+h1,
+h2 {
+    margin: 0;
+
+}
+
+form {
+    width: 60vw;
+    max-width: 400px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+fieldset {
+    background-color: #591313;
+    border: none;
+    border-bottom: 3px solid beige;
+}
+
+input {
+    margin: 8px 0 0;
+    width: 100%;
+}
+
+.sexo {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+.enviar, .sexo{
+    cursor: pointer;
+}
+
+.enviar {
+    background-color: #591313;
+    font-size: 0.8em;
+    color: #fff;
+    height: 50%;
+    width: 80px;
+    border: 1px solid;
+    margin-bottom: 4px;
+}

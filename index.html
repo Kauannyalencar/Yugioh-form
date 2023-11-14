@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de duelos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,300;1,700&family=Oxanium:wght@300;400;700&family=Roboto:wght@300;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img src="academia-de-duelos-19996642-2307.jpg " class="bg" alt="">
+    <header>
+        <img src="Yu-Gi-OhLogo.jpg" class="logo">
+        <nav class="nav-bar">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="#">Locais</a>
+                    <ul class="suspenso">
+                        <li>Class</li>
+                        <li>Shop</li>
+                        <li>Pátio</li>
+                        <li>Campo de duelo</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <h1>Academia de duelos</h1>
+        <h2>Formulario de inscrição</h2>
+        <form action="mailto:kauannyalencar19@gmail.com" method="get">
+            <fieldset class="campo1">
+                <label for="nome">Nome:<input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                </label>
+                <label for="birthdate">Data de nascimento:<input type="date" name="birthdate" id="birthdate"
+                        placeholder="Birth date" required>
+                </label>
+                <label for="email">Seu Email:<input type="email" name="email" id="email" placeholder="Enter your email"
+                        required></label>
+                <label for="senha">Crie uma senha:<input type="password" name="senha" id="senha"
+                        placeholder="Create a password"></label>
+            </fieldset>
+            <fieldset class="campo2">
+                <label for="sm"></label><input type="radio" name="sexo" id="sm" class="sexo">Masculino</label>
+                <label for="sf"><input type="radio" name="sexo" id="sf" class="sexo">Feminino</label>
+            </fieldset>
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+    </div>
+</body>
+
+</html>
